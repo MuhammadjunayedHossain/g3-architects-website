@@ -82,11 +82,53 @@
 }
 /* main style */
 main{
-    max-width: 1318px;
+    max-width:1400px ;
     margin: 0 auto;
 }
 main > section{
     margin-top:85px;
+}
+
+/* feature-info-style */
+.feature-info {
+    gap: 148px ;
+   margin: 130px auto ;  
+}
+
+.first-info{
+    margin-bottom: 30px;
+    width: 586px;
+}
+.info-title{
+    border-left:5px solid #FF900E ;
+    padding-left: 21px;
+    font-weight: bold;
+    font-size: 2.81rem;
+}
+.info-card{
+    padding: 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) ;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
+
+.info-header{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.56rem;
+    font-weight: 500;
+    margin-left:-100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4.06rem;
+    font-weight: bold;
 }
 /* team and feature related style */
 .teams {
